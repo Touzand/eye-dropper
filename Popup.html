@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An extension for google chrome with which you can get the hex code of the color of any pixel on your screen. even outside the browser"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Alan G. Alonso" />
+    <title>Min eye dropper</title>
+    <link rel="stylesheet" href="./popup.css" type="text/css" media="all" />
+  </head>
+
+  <body>
+    <div id="mainCont">
+      <header>
+        <div></div>
+      </header>
+
+      <div class="no-color cant-container"></div>
+
+      <div class="cant-container no-priv"></div>
+
+      <ul id="result"></ul>
+      <div id="picker_btn_cont"></div>
+      <div class="info-container">
+        <p>Hex code is copied to clipboard!</p>
+      </div>
+    </div>
+  </body>
+  <script src="popup.js"></script>
+  <!--<script src="capture.js"></script>-->
+</html>
